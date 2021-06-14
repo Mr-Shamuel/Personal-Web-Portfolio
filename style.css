@@ -115,5 +115,52 @@ h4 {
 
 /* <!-- ====== Start service Area =====--> */
 
+.service-title h1,
+.about-section h1 {
+    /* font: normal bolder 40px/60px "Roboto"; */
+    font-size: 40px;
+}
+
+.service-title p {
+    font: normal 500 15px/25px "roboto";
+    margin: 10px auto;
+    padding: 15px 20%;
+}
+
+.cards {
+    border: 1px solid blue;
+    margin: 20px 0px;
+    transition: .5s ease;
+    background: rgba(248, 252, 253, 0.973)
+}
+
+.cards:hover {
+    box-shadow: 5px 5px 10px 1px gray;
+}
+
+.card-body h5 {
+    font-size: 27px;
+}
+
+.card-body p {
+    font: normal 300 15px/20px "roboto";
+    margin: 12px;
+    padding: 7px;
+}
+
 
 /* <!-- ====== Ends Service Area =====--> */
+
+
+/* <!-- ====== personal info start here =====--> */
+
+.about-info p {
+    text-transform: capitalize;
+}
+
+.about-info hr {
+    width: 50%;
+}
+
+
+/* <!-- ====== personal info ends here =====--> */

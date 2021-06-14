@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link {
+    font-family: "Roboto", cursive;
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-area .row {
+    padding-top: 5%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    color: #8e44ad;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #8e44ad;
+}
+
+
+/* main banner start hera */
+
+.main-area .row h3::after {
+    content: " ";
+    height: 2px;
+    width: 30%;
+    background-color: black;
+    margin-left: 2%;
+    display: inline-block;
+    transform: translateY(-5px);
+}
+
+.main-area .row .site-banner {
+    padding-top: 5%;
+}
+
+.main-area .row h3,
+h1,
+h4 {
+    font-weight: bolder;
+}
+
+.main-area .row h3 {
+    font-size: 40px;
+}
+
+.main-area .row h1 {
+    font-size: 70px;
+}
+
+
+/* ends main section */
+
+
+/* start about section */
+
+.border-hr {
+    border: 6px solid black;
+    border-style: dotted;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+.about-btn a {
+    color: whitesmoke;
+    text-decoration: none;
+    background: linear-gradient(45deg, #e056fd, #eb4d4b);
+    padding: 10px;
+    border-radius: 5px;
+    border-color: purple;
+    font-size: 17px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.about-btn a:hover {
+    /* background: transparent; */
+    color: whitesmoke;
+    background: linear-gradient(45deg, red, blue);
+    font-size: 19px;
+    color: white;
+}
+
+.about-area {
+    padding: 8rem 5rem;
+}
+
+.about-area .about-title h2>span {
+    display: block;
+    font: normal bold 40px/60px "Roboto";
+    letter-spacing: 17px;
+}
+
+.about-area .about-title p {
+    font: normal 500 15px/25px "roboto";
+    padding: 5px 0px;
+}
+
+
+/* ends about section */
+
+
+/* <!-- ====== Start service Area =====--> */
+
+
+/* <!-- ====== Ends Service Area =====--> */
